@@ -1,18 +1,24 @@
 .App {
   text-align: center;
-  background: #2d4472;
+  background-color: rgb(36, 36, 77);
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.gift{
+  height: 400px;
+  width: 300px;
+}
 .Formulario{
+  
 display:grid
 ;
 justify-content: center;
 align-items: center;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -20,7 +26,7 @@ align-items: center;
   }
 }
 
-.App-header {
+header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;

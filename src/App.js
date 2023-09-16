@@ -7,8 +7,9 @@ function App() {
     <div className="App">
       <header>
         <h1>DANTE</h1>
-        <h2> Te Invita a su fiesta de cumpleaños en...</h2>
-      <img></img>
+        
+      <img className='gift' src="https://media.tenor.com/heB1Ljvh1rEAAAAC/titan-speakerman-dab-up-dap-up.gif" alt=""/>
+      <h2> Te Invita a su fiesta de cumpleaños en...</h2>
       </header>
       <div>
         <h2>El Día</h2>
