@@ -44,7 +44,8 @@ function App() {
         <h2>21 de Octubre</h2>
         <h3>de 13:00 a 16:00</h3>
       </div>
-      <a href="https://calendar.google.com/calendar/u/0/r/day/2023/10/21?pli=1" target='_blank'>Agéndalo!!!!</a>
+      <a href="https://calendar.google.com/calendar/u/0/r/day/2023/10/21?pli=1" target='_blank' rel="noreferrer">Agéndalo!!!!</a>
+
       <div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1638.1607449277649!2d-58.3859866!3d-34.7978528!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd34780d2cc97%3A0xc43eeb4e4c65e4e3!2sMalaku!5e0!3m2!1ses-419!2sar!4v1694900119067!5m2!1ses-419!2sar"
@@ -82,6 +83,7 @@ function App() {
           playerRef.current = event.target;
         }}
       />
+      
     </div>
   );
 }
