@@ -71,7 +71,7 @@ function Formulario() {
             onChange={(e) => setMessage(e.target.value)}
           ></textarea>
         </div>
-        <input className="btn" type="submit" value="Send" />
+        <input className="btn" type="submit" value="Enviar" />
         <input type="hidden" name="_next" value="https://www.marchetto.ar/" />
         <input type="hidden" name="_captcha" value="false" />
       </form>
